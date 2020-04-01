@@ -1,10 +1,10 @@
-package io.pivotal.identity
+package io.pivotal.identityserver
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class IdentityApplicationTests {
+class IdentityServerApplicationTests {
 
 	@Test
 	fun contextLoads() {

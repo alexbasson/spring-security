@@ -1,11 +1,11 @@
-package io.pivotal.identity
+package io.pivotal.identityserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class IdentityApplication
+class IdentityServerApplication
 
 fun main(args: Array<String>) {
-	runApplication<IdentityApplication>(*args)
+	runApplication<IdentityServerApplication>(*args)
 }
